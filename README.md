@@ -2,7 +2,7 @@
 
 *This is still work in progress!*
 
-This is my handbook for data analysis, mining, cleaning, agregating, R and possibly data science. It has been written during taking the following courses on coursera prepared by [Johns Hopkins University](https://www.coursera.org/jhu).
+This is my handbook for data analysis, mining, cleaning, aggregating, R and possibly data science. It has been written during taking the following courses on coursera prepared by [Johns Hopkins University](https://www.coursera.org/jhu).
 
 * [The Data Scientist’s Toolbox](https://www.coursera.org/course/datascitoolbox)
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
