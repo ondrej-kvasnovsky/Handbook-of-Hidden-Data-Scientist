@@ -1,5 +1,29 @@
 # Subsetting
 
+#### Basics
+
+`[]` will return object of the same type, can be used to select more than one element.
+
+`[[]]` will access an element on exact position.
+
+`$` will access named variable, for example in a list.
+
+#### Partial Matching
+
+R will guess name of variable when we use `$` operator.
+
+``` R
+> x <- list(aardvark = 1:5)
+> x$a
+[1] 1 2 3 4 5
+> x[["a"]]
+NULL
+> x[["a", exact = FALSE]]
+[1] 1 2 3 4 5
+```
+
+#### Examples
+
 First we create a table with random values.
 
 ``` R

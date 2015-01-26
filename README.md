@@ -6,6 +6,7 @@ This is my handbook for data analysis, mining, cleaning, aggregating, R and poss
 
 * [The Data Scientist’s Toolbox](https://www.coursera.org/course/datascitoolbox)
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
+* [R Programming](https://www.coursera.org/course/rprog)
 
 Why "hidden" data scientest? It is inspired by [pioneer hidden scientist](https://www.youtube.com/watch?v=mkOCe58jReo).
 

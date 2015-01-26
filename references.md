@@ -8,6 +8,7 @@
 
 # Recommented to study
 
+* https://github.com/jtleek/modules
 * https://github.com/jtleek/datasharing
 * http://vita.had.co.nz/papers/tidy-data.pdf
 * http://vimeo.com/33727555

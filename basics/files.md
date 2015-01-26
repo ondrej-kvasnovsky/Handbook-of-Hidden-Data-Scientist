@@ -20,4 +20,10 @@ download.file(url, destfile="./rows.csv", method="curl")
 
 `list.files(".")` lists files in working directory.
 
+`readLines` reads file into memory
 
+`load` will read binary data
+
+`file.remove(...)` removes a file
+
+More info is [here](http://stat.ethz.ch/R-manual/R-devel/library/base/html/files.html).
