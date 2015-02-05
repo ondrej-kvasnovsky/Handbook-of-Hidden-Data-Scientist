@@ -2,14 +2,14 @@
 
 We can serialize an object into a file with all the metadata.
 
-#### Write
+#### Write object into file
 
 ``` R
 data <- data.frame(a=1, b=2)
 dput(data, file="data.R")
 ```
 
-#### Read
+#### Read object from file
 
 ``` R
 newData <- dget("data.R")

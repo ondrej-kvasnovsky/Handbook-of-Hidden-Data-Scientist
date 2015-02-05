@@ -169,11 +169,6 @@ The result is following.
 
 #### Scoping Rules - Example
 
-* [Scoping Example](https://github.com/jtleek/modules/blob/master/02_RProgramming/Scoping/index.md)
+For more information about scoping have a look [here](https://github.com/jtleek/modules/blob/master/02_RProgramming/Scoping/index.md).
 
 
-
-
-``` R
-
-```

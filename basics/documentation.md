@@ -16,6 +16,8 @@ If you know name of the function, just type `?` infront of the name of the funct
 
 #### Example
 
+`example` function will return an example that we can copy and paste into R to see how a function is working.
+
 ``` R
 example(read.table)
 ```

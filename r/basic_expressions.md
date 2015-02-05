@@ -14,15 +14,33 @@ R has several one-letter reserved words: c, q, s, t, C, D, F, I, and T.
 
 #### Assign a variable
 
-``` R
-x <- 1
-```
-
-#### Print out value of an object
+Use `<-` symbols to assign value to a variable.
 
 ``` R
 > x <- 1
 > x
+[1] 1
+```
+
+> We can assign variable in oposit direction too: `1 -> x`
+
+As equivalent, we can use `assign` function to assign value to a variable.
+
+``` R
+> assign("x", 1)
+> x
+[1] 1
+```
+
+#### Print out value of an object
+
+We can simply type name of a variable and that will print it out by itself. Or we can use `print` function to print it out.
+
+``` R
+> x <- 1
+> x
+[1] 1
+> print(x)
 [1] 1
 ```
 
@@ -75,6 +93,20 @@ In case we want more information about an object, we can use `summary` function.
 
 You cannot have array of multiples types. So, you cannot mix integers with strings in one array.
 
+``` R
+> array(1, 3)
+[1] 1 1 1
+```
+
+Now we can play with arrays to find out how they work with types.
+
+``` R
+> as.array(c(1, 2))
+[1] 1 2
+> as.array(c(1, "2"))
+[1] "1" "2"
+```
+
 #### Vector
 
 To create empty vector, use this.
@@ -122,6 +154,18 @@ In list, you can mix types.
 
 ``` R
 list(1, "a")
+```
+
+Recursive lists.
+
+```R
+x <- list(list(list(list())))
+str(x)
+> List of 1
+>  $ :List of 1
+>   ..$ :List of 1
+>   .. ..$ : list()
+is.recursive(x)
 ```
 
 > List is index with double brackets.

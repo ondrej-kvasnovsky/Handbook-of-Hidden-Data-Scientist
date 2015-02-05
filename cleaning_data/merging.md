@@ -1,5 +1,7 @@
 # Merging
 
+First we will prepare data for merging.
+
 ``` R
 fileUrl1 <- "https://dl.dropboxusercontent.com/u/7710864/data/reviews-apr29.csv"
 fileUrl2 <- "https://dl.dropboxusercontent.com/u/7710864/data/solutions-apr29.csv"

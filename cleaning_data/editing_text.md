@@ -128,13 +128,3 @@ Trim string.
 ``` R
 str_trim("   Hello   ")
 ```
-
-
-
-``` R
-```
-
-
-
-``` R
-```

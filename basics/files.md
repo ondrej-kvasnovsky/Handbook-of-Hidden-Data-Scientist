@@ -1,6 +1,10 @@
 # Files
 
-Before we start working with files we need to set working directory.When we set working directory, all the files will be automatically stored there.
+Before we start working with files we need to set working directory using `setwd()` function. When we set working directory, all the files will be automatically stored there.
+
+### Functions
+
+Here is few functions that might be handy while working with files.
 
 `getwd()` returns current working directory.
 

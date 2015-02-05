@@ -104,6 +104,8 @@ merge(table1.values, table2.values)
 
 #### Fast reading
 
+First we create a file that we can use to test speed of reading.
+
 ``` R
 big.file <- data.frame(x=rnorm(1E6), y=rnorm(1E6))
 
@@ -112,14 +114,13 @@ file <- tempfile()
 write.table(big.file, file=file, row.names=FALSE, col.names=TRUE, sep="\t", quote=FALSE)
 ```
 
-Slow approach:
-
+Slow approach using `read.table` function.
 
 ``` R
 system.time(read.table(file, header=TRUE, sep="\t"))
 ```
 
-Faster approach:
+Faster approach using `fread` function.
 
 ``` R
 system.time(fread(file))

@@ -126,33 +126,33 @@ View(newData)
 #### Transformations
 
 ``` R
-absolute value
+# absolute value
 abs(x)
 
-square root
+# square root
 sqrt(x)
 
-ceiling(3.4) is 4
+# ceiling(3.4) is 4
 ceiling(x)
 
-floor(3.4) is 3
+# floor(3.4) is 3
 floor(x)
 
-rounding
+# rounding
 round(x, digits=n)
 
-signif(3.475, digits=2) is 3.5
+# signif(3.475, digits=2) is 3.5
 signif(x, digits=n)
 
-cos(x), sin(x), etc.
+cos(x), sin(x) # etc.
 
-natural logarithm
+# natural logarithm
 log(x)
 
-other logaritmhs
+# other logaritmhs
 log2(x), log10(x)
 
-exponentiating x
+# exponentiating x
 exp(x)
 ```
 

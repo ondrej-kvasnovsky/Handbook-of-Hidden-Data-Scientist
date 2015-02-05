@@ -47,6 +47,5 @@
    * [Merging](cleaning_data/merging.md)
    * [Editing text](cleaning_data/editing_text.md)
    * [Regular Expressions](cleaning_data/regular_expressions.md)
-   * [Dates](cleaning_data/dates.md)
 * [Visualization](visualization/README.md)
 
