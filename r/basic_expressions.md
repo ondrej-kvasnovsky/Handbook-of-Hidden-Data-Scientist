@@ -46,7 +46,7 @@ We can simply type name of a variable and that will print it out by itself. Or w
 
 #### Sequence
 
-We can create sequence of number as follows and print it the same way.
+We can create sequence of number as follows and print it the same way as mentioned above.
 
 ``` R
 > x <- 1:20
@@ -107,14 +107,6 @@ Now we can play with arrays to find out how they work with types.
 [1] "1" "2"
 ```
 
-#### Vector
-
-To create empty vector, use this.
-
-``` R
-vector()
-```
-
 #### Numbers
 
 If you type `1`, it gives numeric type `1`.But if you type `1L`, it give `1` as integer type.
@@ -124,6 +116,12 @@ If you type `1`, it gives numeric type `1`.But if you type `1L`, it give `1` as 
 An object can have attributes. To access attributes, use `attributes()`. That allows you to set or modify the attributes.
 
 ### Vectors
+
+To create empty vector, use this.
+
+``` R
+vector()
+```
 
 `c()` function will create a vector. So you can create vector like this:
 

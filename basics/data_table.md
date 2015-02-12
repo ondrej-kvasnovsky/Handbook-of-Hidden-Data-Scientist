@@ -4,7 +4,7 @@ Facts about `data.table`.
 
 * Extends from `data.frame` and therefore should provide the same API.
 * Is written in C and is really fast.
-* Much faster at subsetting, group and updating.
+* Much faster at subsetting, grouping and updating.
 
 #### Hello world
 
