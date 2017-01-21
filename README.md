@@ -1,4 +1,4 @@
-# Handbook of Hidden Data Scientist
+# Handbook of Hidden Data Scientist \(R\)
 
 This is my handbook for data analysis, mining, cleaning, aggregating, R and possibly data science. It has been written during taking the following courses on coursera prepared by [Johns Hopkins University](https://www.coursera.org/jhu).
 
