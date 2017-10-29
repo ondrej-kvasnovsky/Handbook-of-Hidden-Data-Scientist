@@ -6,7 +6,7 @@ This is my handbook for data analysis, mining, cleaning, aggregating, R and poss
 * [Getting and Cleaning Data](https://www.coursera.org/course/getdata)
 * [R Programming](https://www.coursera.org/course/rprog)
 
-Why "hidden" data scientest? It is inspired by [pioneer hidden scientist](https://www.youtube.com/watch?v=mkOCe58jReo).
+Why "hidden" data scientest? It is inspired by [pioneer hidden scientist](https://www.youtube.com/watch?v=vw1tkFSRSTM).
 
 If you are a developer able to write code in Java or similar language and work with databases, you might find this handbook useful and un-hide your data scientist potential.
 
